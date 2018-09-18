@@ -21,5 +21,3 @@ exclude_list=(
 cd "$local_bin_path"
 
 . mbs.sh
-
-cd
