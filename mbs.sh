@@ -20,11 +20,11 @@ echo $smb_base_path
 
 if [ -d "$smb_base_path" ];then
 
-    echo -e "All right !\n\nThe required Samba path is available. :-)"
+    echo -e "All right !\n\nThe required remote path is available. :-)"
 
 else
 
-    echo -e "Fail !\n\nThe required Samba path isn't available. :'("
+    echo -e "Fail !\n\nThe required remote path isn't available. :'("
     exit 6
 
 fi
