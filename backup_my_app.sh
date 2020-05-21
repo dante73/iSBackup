@@ -1,5 +1,5 @@
 # To disable
-return;
+#return;
 
 data_type="Applications"
 

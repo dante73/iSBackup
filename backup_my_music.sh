@@ -1,7 +1,7 @@
 # To disable
-#return;
+return;
 
-data_type="Pasta de Projetos"
+data_type="MP3 Files"
 
 # When user call individual script
 if [ -z "$local_bin_path" ];then
@@ -9,10 +9,11 @@ if [ -z "$local_bin_path" ];then
     local_bin_path="$PWD"
 fi
 
-local_base_path="$HOME/bin"
-smb_base="/Volumes/Data"
+local_base_path="/Volumes/Music SSD"
+smb_base="/Volumes/Media"
 smb_base_path="$smb_base"
 exclude_list=(
+  [0]="Music"
 )
 
 cd "$local_bin_path"
